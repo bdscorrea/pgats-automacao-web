@@ -79,7 +79,7 @@ describe('Automation Exercise', () => {
 
         it('Login Inválido', () => {
 
-        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[2]git status').type('testesucesso@teste.com')
+        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[2]').type('testesucesso@teste.com')
         cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[3]').type('123457', {log: false})   
         cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/button').click()
  

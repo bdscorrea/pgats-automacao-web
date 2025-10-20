@@ -15,6 +15,9 @@ jobs:
 
       - name: Instalando dependências
         run: npm install
+        
+      - name: Teste de conexão
+        run: curl -I https://devfinance-agilizei.netlify.app
 
       - name: Executando os testes
         run: npx cypress run
@@ -24,3 +27,6 @@ jobs:
         with:
           name: relatorios
           path: cypress/reports
+          
+
+

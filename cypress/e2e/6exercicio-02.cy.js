@@ -1,6 +1,6 @@
 describe('Cadastrar entradas e saídas com bugs', () => {
     beforeEach(() => {
-      cy.visit("https://devfinance-agilizei.netlify.app", { timeout: 120000 })
+      cy.visit("https://devfinance-agilizei.netlify.app", { timeout: 300000 })
 
     })
   it('Cadastrar uma nova transação de entrada - falha 1', () => {

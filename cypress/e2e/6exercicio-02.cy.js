@@ -62,7 +62,7 @@ describe('Cadastrar entradas e saídas com bugs', () => {
     cy.get(".alert").should("not.exist")
   });
 
-  it.skip('Cadastrar uma nova transação de entrada - falha 6', () => {
+  it('Cadastrar uma nova transação de entrada - falha 6', () => {
 
     cy.contains("Nova Transação").click()
     cy.get("#description").type("Mesada")

@@ -67,8 +67,8 @@ describe('Automation Exercise', () => {
         cy.get('[data-qa="login-password"]').type('12345', {log: false})   
         cy.get('[data-qa="login-button"]').click()
  
-        cy.contains('b', 'Teste Sucesso')
-        cy.get(':nth-child(10) > a').should('contain', 'Logged in as Teste Sucesso');
+        cy.contains('b', 'qa tester')
+        cy.get(':nth-child(10) > a').should('contain', 'Logged in as qa tester');
 
         });
 

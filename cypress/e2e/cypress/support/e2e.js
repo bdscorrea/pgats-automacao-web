@@ -15,4 +15,3 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-require('browserstack-cypress-cli/bin/testObservability/cypress');

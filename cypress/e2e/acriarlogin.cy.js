@@ -1,5 +1,4 @@
 
-import data from '../fixtures/example.json'
 import { faker } from '@faker-js/faker'
 
 describe('Automation Exercise', () => {

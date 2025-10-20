@@ -1,7 +1,7 @@
 
 import { faker } from '@faker-js/faker'
 
-describe('Automation Exercise', () => {
+describe('Automation Exercise - Criar Login 3', () => {
     beforeEach(() => {
         //cy.viewport('iphone-xr')
         cy.visit('https://automationexercise.com/')

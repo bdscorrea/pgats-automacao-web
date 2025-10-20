@@ -18,7 +18,7 @@ import cadastro from '../modules/cadastro';
 import carrinho from '../modules/carrinho';
 import contato from '../modules/contato';
 
-describe('Automation Exercise', () => {
+describe('Automation Exercise XPATH', () => {
     beforeEach(() => {
         //cy.viewport('iphone-xr')
         cy.visit('https://automationexercise.com/')

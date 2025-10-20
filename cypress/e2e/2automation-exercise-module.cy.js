@@ -6,7 +6,7 @@ import cadastro from '../modules/cadastro';
 import carrinho from '../modules/carrinho';
 import contato from '../modules/contato';
 
-describe('Automation Exercise', () => {
+describe('Automation Exercise Module', () => {
     beforeEach(() => {
         cy.visit('https://automationexercise.com/')
     });

@@ -68,8 +68,8 @@ describe('Automation Exercise', () => {
 
     it('Login com Sucesso', () => {
 
-        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[2]').type('testesucesso@teste.com')
-        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[3]').type('12345', {log: false})   
+        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[2]').type(data.email)
+        cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/input[3]').type(data.pass)   
         cy.xpath('//*[@id="form"]/div/div/div[1]/div/form/button').click()
  
         cy.contains('b', 'qa tester')

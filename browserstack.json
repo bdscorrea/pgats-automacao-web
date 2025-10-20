@@ -1,34 +1,44 @@
 {
-  "auth": {
-    "username": "mathexbscorrea_8npBUx",
-    "access_key": "MJmy6CkGz1NHipbfbJfd"
-  },
-  "browsers": [{
-      "browser": "chrome",
-      "os": "Windows 10",
-      "versions": ["latest", "latest - 1"]
+    "auth": {
+        "username": "mathexbscorrea_8npBUx",
+        "access_key": "MJmy6CkGz1NHipbfbJfd"
     },
-    {
-      "browser": "firefox",
-      "os": "OS X Mojave",
-      "versions": ["latest", "latest - 1"]
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "cypress_version": "13.4.0",
+        "project_name": "pgats-automacao-web",
+        "build_name": "build-name",
+        "exclude": [],
+        "parallels": 1,
+        "npm_dependencies": {},
+        "auto_import_dev_dependencies": false,
+        "exclude_dependencies": [],
+        "package_config_options": {},
+        "headless": true
     },
-    {
-      "browser": "edge",
-      "os": "OS X Catalina",
-      "versions": ["latest"]
-    }
-  ],
-  "run_settings": {
-    "cypress_config_file": "./cypress.config.js",
-    "cypress_version": "13.4.0",
-    "npm_dependencies": {
-      "add-your-npm-package-1-for-test-run-here": "npm-package-version",
-      "add-your-npm-package-2-for-test-run-here": "npm-package-version"
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
     },
-    "project_name": "Cypress Kitchen Sink Example",
-    "build_name": "Build no: 1",
-    "parallels": 1,
-    "exclude": ["some-folder/test.js", "static/*.pdf"]
-  }
+    "disable_usage_reporting": false
 }

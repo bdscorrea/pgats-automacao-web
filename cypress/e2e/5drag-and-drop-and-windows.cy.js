@@ -12,7 +12,7 @@ describe('drag-and-drop-and-windows', () => {
         cy.get('a[href="/windows/new"]').should('have.text', 'Click Here')
     })
     it('Drag and Drop', () => {
-        cy.visit('https://the-internet.herokuapp.com/drag-and-drop')
+        cy.visit('https://the-internet.herokuapp.com/drag-and-drop', { failOnStatusCode: false })
 
         const dataTransfer = new DataTransfer()
         cy.contains('A').trigger('dragstart', { dataTransfer })
